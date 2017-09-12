@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dz.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="499dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="274dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="拨号"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="-1dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
